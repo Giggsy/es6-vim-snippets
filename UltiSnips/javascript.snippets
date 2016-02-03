@@ -12,42 +12,46 @@ snippet = "anon function" b
 (${1}) => {${2}}
 endsnippet
 
-snippet "(\S+)\.map" "map" b
+snippet "(\S+)\.map" "map" r
 .map( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.fil" "filter" b
+snippet "(\S+)\.fil" "filter" r
 .filter( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.each" "forEach" b
+snippet "(\S+)\.each" "forEach" r
 .forEach( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.red" "reduce" b
+snippet "(\S+)\.red" "reduce" r
 .reduce( (${1}, ${2}) => ${3}) 
 endsnippet
 
-snippet "(\S+)\.Map" "m map" b
+snippet "(\S+)\.Map" "m map" r
 .map( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Fil" "m filter" b
+snippet "(\S+)\.Fil" "m filter" r
 .filter( (${1}) => {
-  ${2}
+	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Each" "m forEach" b
+snippet "(\S+)\.Each" "m forEach" r
 .forEach( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Red" "m reduce" b
+snippet "(\S+)\.Red" "m reduce" r
 .reduce( (${1}, ${2}) => {
-  ${4}
+	${4}
 }, ${3}) 
+endsnippet
+
+snippet cl "console.log" b
+console.log(${1:"${2:value}"});
 endsnippet
