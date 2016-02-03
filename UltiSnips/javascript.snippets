@@ -9,44 +9,44 @@ const ${1} = (${2}) {
 endsnippet
 
 snippet = "anon function" b
-	(${1}) => {${2}}
+(${1}) => {${2}}
 endsnippet
 
-snippet map "map" b
+snippet .map "map" b
 .map( ${1} => ${2} )
 endsnippet
 
-snippet fil "filter" b
+snippet .fil "filter" b
 .filter( ${1} => ${2} )
 endsnippet
 
-snippet each "forEach" b
+snippet .each "forEach" b
 .forEach( ${1} => ${2} )
 endsnippet
 
-snippet red "reduce" b
+snippet .red "reduce" b
 .reduce( (${1}, ${2}) => ${3}) 
 endsnippet
 
-snippet Map "m map" b
+snippet .Map "m map" b
 .map( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet Fil "m filter" b
+snippet .Fil "m filter" b
 .filter( (${1}) => {
-	${2}
+  ${2}
 });
 endsnippet
 
-snippet Each "m forEach" b
+snippet .Each "m forEach" b
 .forEach( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet Red "m reduce" b
+snippet .Red "m reduce" b
 .reduce( (${1}, ${2}) => {
   ${4}
 }, ${3}) 
