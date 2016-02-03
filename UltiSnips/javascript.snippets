@@ -8,45 +8,45 @@ const ${1} = (${2}) {
 }
 endsnippet
 
-snippet = "anon function" i
+snippet = "anon function" r
 (${1}) => {${2}}
 endsnippet
 
-snippet "(\S+)\.map" "map" i
+snippet .map "map" i
 .map( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.fil" "filter" i
+snippet "(\S+)\.fil" "filter" r
 .filter( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.each" "forEach" i
+snippet "(\S+)\.each" "forEach" r
 .forEach( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.red" "reduce" i
+snippet "(\S+)\.red" "reduce" r
 .reduce( (${1}, ${2}) => ${3})
 endsnippet
 
-snippet "(\S+)\.Map" "m map" i
+snippet "(\S+)\.Map" "m map" r
 .map( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Fil" "m filter" i
+snippet "(\S+)\.Fil" "m filter" r
 .filter( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Each" "m forEach" i
+snippet "(\S+)\.Each" "m forEach" r
 .forEach( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Red" "m reduce" i
+snippet "(\S+)\.Red" "m reduce" r
 .reduce( (${1}, ${2}) => {
 	${4}
 }, ${3})
