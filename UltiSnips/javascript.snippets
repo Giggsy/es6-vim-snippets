@@ -12,41 +12,41 @@ snippet = "anon function" b
 (${1}) => {${2}}
 endsnippet
 
-snippet (\S+)\.map "map" b
+snippet "(\S+)\.map" "map" b
 .map( ${1} => ${2} )
 endsnippet
 
-snippet (\S+)\.fil "filter" b
+snippet "(\S+)\.fil" "filter" b
 .filter( ${1} => ${2} )
 endsnippet
 
-snippet (\S+)\.each "forEach" b
+snippet "(\S+)\.each" "forEach" b
 .forEach( ${1} => ${2} )
 endsnippet
 
-snippet (\S+)\.red "reduce" b
+snippet "(\S+)\.red" "reduce" b
 .reduce( (${1}, ${2}) => ${3}) 
 endsnippet
 
-snippet (\S+)\.Map "m map" b
+snippet "(\S+)\.Map" "m map" b
 .map( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet (\S+)\.Fil "m filter" b
+snippet "(\S+)\.Fil" "m filter" b
 .filter( (${1}) => {
   ${2}
 });
 endsnippet
 
-snippet (\S+)\.Each "m forEach" b
+snippet "(\S+)\.Each" "m forEach" b
 .forEach( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet (\S+)\.Red "m reduce" b
+snippet "(\S+)\.Red" "m reduce" b
 .reduce( (${1}, ${2}) => {
   ${4}
 }, ${3}) 
