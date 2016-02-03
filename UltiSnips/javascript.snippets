@@ -16,37 +16,37 @@ snippet .map "map" i
 .map( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.fil" "filter" r
+snippet .fil "filter" i
 .filter( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.each" "forEach" r
+snippet .each "forEach" i
 .forEach( ${1} => ${2} )
 endsnippet
 
-snippet "(\S+)\.red" "reduce" r
+snippet .red "reduce" i
 .reduce( (${1}, ${2}) => ${3})
 endsnippet
 
-snippet "(\S+)\.Map" "m map" r
+snippet .Map "m map" i
 .map( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Fil" "m filter" r
+snippet .Fil "m filter" i
 .filter( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Each" "m forEach" r
+snippet .Each "m forEach" i
 .forEach( (${1}) => {
 	${2}
 });
 endsnippet
 
-snippet "(\S+)\.Red" "m reduce" r
+snippet .Red "m reduce" i
 .reduce( (${1}, ${2}) => {
 	${4}
 }, ${3})
