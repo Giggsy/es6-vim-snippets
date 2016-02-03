@@ -1,0 +1,53 @@
+#
+# ES6
+#
+
+snippet fun "function" b
+const ${1} = (${2}) {
+	${3}
+}
+endsnippet
+
+snippet = "anon function" b
+(${1}) => {${2}}
+endsnippet
+
+snippet map "map" b
+.map( ${1} => ${2} )
+endsnippet
+
+snippet fil "filter" b
+.filter( ${1} => ${2} )
+endsnippet
+
+snippet each "forEach" b
+.forEach( ${1} => ${2} )
+endsnippet
+
+snippet red "reduce" b
+.reduce( (${1}, ${2}) => ${3}) 
+endsnippet
+
+snippet Map "m map" b
+.map( (${1}) => {
+	${2}
+});
+endsnippet
+
+snippet Fil "m filter" b
+.filter( (${1}) => {
+	${2}
+});
+endsnippet
+
+snippet Each "m forEach" b
+.forEach( (${1}) => {
+		${2}
+		});
+endsnippet
+
+snippet Red "m reduce" b
+.reduce( (${1}, ${2}) => {
+${4}
+}, ${3}) 
+endsnippet
