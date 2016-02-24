@@ -61,3 +61,15 @@ endsnippet
 snippet im
 import ${1:foo} from '${2:bar}'
 endsnippet
+
+
+#
+# React ish
+#
+
+snippet redux action creator
+export const ${1} = "${1}";
+function ${2}(${3}) {
+    return { type: ${1}, ${3} };
+}
+
